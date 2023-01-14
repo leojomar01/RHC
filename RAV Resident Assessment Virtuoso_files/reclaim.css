@@ -1,0 +1,89 @@
+
+footer.sticky-footer {
+	width: 100%;
+	height: 40px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: #DAF7A6;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+	color: greenyellow;
+}
+
+.bg-highlighted-yellow {
+	background-color: #EEF0A0;
+}
+
+#resident-list_wrapper {
+	padding: 1em 0 !important;
+}
+
+#resident-list tbody tr td:nth-child(n+5){
+	text-align: center;
+}
+
+table thead tr th:nth-child(n+5){
+	text-align: center;
+}
+
+/*div.dt-buttons {
+	float: right
+}*/
+
+.topbar .topbar-divider {
+	width: 0;
+    border-right: 3px solid #e3e6f0;
+    height: calc(4rem - 2rem);
+    margin: auto 1rem;
+}
+
+.tooltip-inner {
+	text-align: left;
+	border-radius: 9px;
+	border:1px solid #17a2b8;
+	max-width: 350px;
+}
+
+.tooltip-inner ul {
+	padding-left: 20px;
+	padding-bottom: 0;
+}
+
+div.dataTables_scroll table thead th {
+	vertical-align: middle;
+}
+
+div.dataTables_scroll table thead th:nth-child(11) {
+	width: 54px !important;
+}
+
+div.dataTables_scroll table tbody tr td {
+	padding: 0 !important;
+}
+
+#ocr-text-results textarea {
+	overflow-y: scroll;
+	height: 200px;
+}
+
+table li {
+	list-style-type: square
+}
+
+.container-center {
+	margin: auto;
+}
+
+.gg_nursing {
+	font-weight: bold;
+	color: red;
+	display: inline;
+	padding-left: 3px;
+}
+
+.yoy-growth {
+	display: block;
+}
